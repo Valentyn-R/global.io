@@ -1,0 +1,31 @@
+
+@import 'libs/fonts';
+@import 'blocks/media';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    margin: 0;
+}
+
+.container {
+    width: 1300px;
+    margin:  0 auto;
+}
+
+
+@import 'blocks/menu';
+@import 'blocks/btn';
+@import 'blocks/global';
+@import 'blocks/deliver';
+@import 'blocks/agent';
+@import 'blocks/price';
